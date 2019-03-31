@@ -1,0 +1,8 @@
+header,
+body {
+	text-align: center;
+}
+.pause {
+	animation-play-state: paused;
+}
+
