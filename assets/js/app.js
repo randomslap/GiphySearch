@@ -12,7 +12,7 @@ function createBtn() {
 function getResults() {
 	var search = $(this).attr("data-input");
 	var queryURL =
-		"http://api.giphy.com/v1/gifs/search?q=" +
+		"https://api.giphy.com/v1/gifs/search?q=" +
 		search +
 		"&limit=10&api_key=dc6zaTOxFJmzC";
 	$.ajax({
